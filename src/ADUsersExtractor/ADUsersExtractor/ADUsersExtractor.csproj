@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp3.0;netcoreapp2.2;;netcoreapp2.1;netcoreapp2.0</TargetFrameworks>
+    <!--<TargetFrameworks>netstandard3.0;netcoreapp3.0</TargetFrameworks>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ADUserExtractor.Lib\ADUserExtractor.Lib.csproj" />
+  </ItemGroup>
+
+</Project>
